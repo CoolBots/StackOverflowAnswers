@@ -82,8 +82,9 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // mainForm
             // 
@@ -94,7 +95,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mainMenuStrip;
             this.Name = "mainForm";
-            this.Text = "Form Refresher";
+            this.Text = "MDI Refresh Child Forms";
             this.mainMenuStrip.ResumeLayout(false);
             this.mainMenuStrip.PerformLayout();
             this.ResumeLayout(false);

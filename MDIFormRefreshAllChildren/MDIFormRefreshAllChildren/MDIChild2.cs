@@ -18,6 +18,6 @@ namespace MDIFormRefreshAllChildren
         }
 
         private void clickMeButton_Click(object sender, EventArgs e) 
-            => base.NotifyParent();
+            => base.NotifyParent(); //Raise the FormChanged event via the base class
     }
 }
